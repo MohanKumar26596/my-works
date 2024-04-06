@@ -1,9 +1,12 @@
+import React from 'react';
 import './App.css';
+import Login from './Components/Login/Login.tsx';
+
 
 function App() {
   return (
     <div className="App">
-      my works
+      <Login />
     </div>
   );
 }
